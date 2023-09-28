@@ -1,0 +1,8 @@
+num = int(input("Digite um número: "))
+sucessor = num + 1
+antecessor = num - 1
+perg = input("Digite 1 para ver o antecessor e 2 para ver o antecessor: ")
+if perg == 1:
+    print(sucessor)
+else:
+    print(antecessor)
